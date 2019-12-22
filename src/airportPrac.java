@@ -40,6 +40,7 @@ public class airportPrac {
 			// to guard against possible overflow use below code
 			// overflow happens when array or list is HUGE
 			// mid = low + ((high - low)/2)
+			// TESTING MAKING CHANGES
 			int compare = toFInd.compareTo(airports[mid].getCity());
 			if (compare < 0) {
 				high = mid - 1;
